@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.app {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: ghostwhite;
+  height: 100vh;
+}
+
+.home::-webkit-scrollbar {
+  display: none;
+}
+
+.product::-webkit-scrollbar {
+  display: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
